@@ -51,3 +51,19 @@ for i in range(count+1):
     print('Retrieving: ', url)
     tag = soup('a')[position-1]
     url = tag.get('href', None)
+
+'''
+# Output
+
+Enter URL: http://py4e-data.dr-chuck.net/known_by_Kai.html
+Enter count: 7
+Enter position: 18
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Kai.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Sahar.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Bethan.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Hashim.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Efe.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Herbert.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Shania.html
+Retrieving:  http://py4e-data.dr-chuck.net/known_by_Anselm.html
+'''
